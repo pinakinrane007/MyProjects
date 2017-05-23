@@ -1,0 +1,15 @@
+[{"name":"code review process",
+  "displayName":"how is the code review process managed?",
+  "uiElement":{
+  "type":"textarea"
+  }
+  },
+  {
+  "name":"code quality tool",
+  "displayName":"Is any automated code quality tool used as a part of built process?",
+  "uiElement":{
+  "type":"textbox"
+  }
+  }
+
+]

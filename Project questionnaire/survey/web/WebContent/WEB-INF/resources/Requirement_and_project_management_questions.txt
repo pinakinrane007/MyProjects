@@ -1,0 +1,7 @@
+insert into dbo.questions (category_id,name,display_name,facet_id) values (3,'requirement-management','How are requirements gathered and managed?',2)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (3,'in-progress-tasks','How is in-progress tasks tracked and visualized?',2)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (3,'agile-methodology-used?',' Is Agile methodology used for related projects? ',3)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (3,'iterationLength','If so, what is the length of iterations?',1)

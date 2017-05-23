@@ -1,0 +1,33 @@
+ insert into facet(name,ui_type,value,survey_id,isActive) VALUES ('generic-text-box','textBox',null,1,'Y') 
+        
+ insert into facet(name,ui_type,value,survey_id,isActive) VALUES ('generic-text-area','textArea',null,1,'Y') --2
+ 
+insert into facet(name,ui_type,value,survey_id,isActive) VALUES ('yes-no','dropDown',[{"id":1,"value":"Yes","default":"Yes"},{"id":2,"value":"No"}],1,'Y')
+
+insert into facet(name,ui_type,value,survey_id,isActive) VALUES ('true-false','dropDown','[{"id":1,"value":"true","default":"true"},{"id":2,"value":"false"}]',1,'Y')
+ 
+ insert INTO facet (name,ui_type,value,survey_id,isActive) VALUES ('primary-line-of-business','dropDown','[{"id":1,"value":"organization"},{"id":2,"value":"HR"},{"id":3,"value":"risk-control","default":"risk-control"},{"id":4,"value":"finance"},{"id":5,"value":"location-site"}]',1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id,isActive) VALUES ('products-supported','dropDown',null,1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id, isActive) VALUES ('Business-function-supported','dropDown',null,1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id,isActive) VALUES ('User-groups-primary','dropDown',null,1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id, isActive) VALUES ('Client-group-primary','dropDown',null,1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id, isActive) VALUES ('Development-ui_type','dropDown','[{"id":1,"value":"inHouse"},{"id":2,"value":"vendor"}]',1,'Y')
+
+ insert INTO facet (name,ui_type,value,suevey_id, isActive) VALUES ('Hoisting-strategy','dropDown',[{"id":1,"value":"internal","default":"internal"},{"id":2,"value":"external"},{"id":3,"value":"hybrid"}]',1,'Y')
+
+ insert INTO facet (name,ui_type,value,survey_id,isActive) VALUES ('Application-ui_type',dropDown,'[{"id":1,"value":"batch"},{"id":2,"value":"online"},{"id":3,"value":"transactional","default":"transactional"},{"id":4,"value":"reporting"},{"id":5,"value":"brocher-vare"}]',1,'Y')
+
+ insert into facet (name,ui_type,value,survey_id,isActive) values ('Data-centers','dropDown','[{"id":1,"value":"london"},{"id":2,"value":"Toronto","default":"Toronto"}]'1,'Y')
+ 
+ insert into facet (name,ui_type,value,survey_id,isActive) values ('Host-OS',dropDown,'[{"id":1,"value":"nix","default":"nix"},{"id":2,"value":"Windows"},{"id":3,"value":"other"}]',1,'Y')
+ 
+ insert into facet (name,ui_type,value,survey_id,isActive) values ('Machine-ui_type','dropDown','[{"id":1,"value":"physical","default":"physical"},{"id":2,"value":"virtual"},{"id":3,"value":"container"}]',1,'Y')  
+ 
+ insert into facet (name,ui_type,value,survey_id,isActive) values ('project-documentation-maintainance','dropDown','[{"id":1,"value":"API Docs","default":"API Docs"},{"id":2,"value":"Run book"}]',1,'Y')
+
+ 

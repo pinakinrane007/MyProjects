@@ -1,0 +1,23 @@
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'data_centers','Data centers deployed to',13)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'application multi-tiered?','Is the application multi-tiered?',3)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Technologies-Used','Technologies Used and their versions',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Host-OS','Host OS and version',14)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'machine-type','Is the host machine physical or virtual or container?',15)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Description','Describe the load-balancing and fail-over approach?',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Describe the load-balancing and fail-over approach?',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'UI-Tier','UI Tier',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Server-side-Tier','Server-side Tier',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Database-Tier','Server-side Tier',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Caches','Caches',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (2,'Search-engines','Search engines',1)

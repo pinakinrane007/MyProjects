@@ -1,0 +1,43 @@
+[{"name":"non functional testing",
+  "displayName":"Is there a dedicated environment for non-functional testing?",
+  "uiElement":{
+  "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+  }
+
+},
+{"name":"non functional testing automation",
+ "displayName":"Is non-functional testing automated and part of the build process?",
+ "uiElement":{
+ "type":"drop-down",
+ "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+ }
+
+},
+{"name":"test cases",
+ "displayName":"How are the test cases and results documented and reported?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+}]

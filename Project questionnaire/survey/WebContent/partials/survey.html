@@ -1,0 +1,88 @@
+
+   <div class="row">
+<div class="">
+
+  <div id="form-container">
+
+      <div class="page-header text-center">
+          <h2>Survey</h2>
+
+          <div class="col-md-12" ng-show="pages.length > 0">
+    <ul class="pagination-small pagination">
+  	<li ng-class="{'disabled':currentIndex===1}">
+		<a>First</a>
+	</li>
+	<li ng-class="{'disabled':currentIndex===1}">	
+		<a><<</a>
+	</li>
+	<li>	
+		<a ng-repeat="page in pages" ng-class="{active: page.active}">{{page.id}}</a>
+	</li>
+	<li ng-class="{'disabled':getClass()}">		
+		<a>>></a>
+	<li>
+	<li ng-class="{'disabled':getClass()}">	
+		<a>Last</a>
+	</li>
+	<!-- <li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" 
+	class="ng-scope disabled"><a ng-click="selectPage(page.number)" class="ng-binding"><<</a></li><li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope active"><a ng-click="selectPage(page.number)" class="ng-binding">1</a></li><li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope"><a ng-click="selectPage(page.number)" class="ng-binding">2</a></li><li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope"><a ng-click="selectPage(page.number)" class="ng-binding">3</a></li><li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope"><a ng-click="selectPage(page.number)" class="ng-binding">4</a></li><li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope">
+	<a ng-click="selectPage(page.number)" class="ng-binding">>></a></li>
+	<li ng-repeat="page in pages" ng-class="{active: page.active, disabled: page.disabled}" class="ng-scope"><a ng-click="selectPage(page.number)" class="ng-binding">Last</a></li>-->
+</ul>
+                    </div>
+      </div>
+
+      <!-- use ng-submit to catch the form submission and use our Angular function -->
+      <!--  <form id="signup-form" novalidate>
+          <div class="form-group">
+		      <label for="name">Name</label>
+		      <input type="text" class="form-control" name="name" ng-model="formData.name">
+		  </div>
+
+		  <div class="form-group">
+		      <label for="email">Email</label>
+		      <input type="text" class="form-control" name="email" ng-model="formData.email">
+		  </div>
+		  <label>What's Your Console of Choice?</label>
+
+			<div class="form-group">
+			    <div class="radio">
+			        <label>
+			           <input type="radio" ng-model="formData.type" value="xbox" checked>
+			           I like XBOX
+			        </label>
+			    </div>
+			    <div class="radio">
+			        <label>
+			            <input type="radio" ng-model="formData.type" value="ps">
+			            I like PS4
+			        </label>
+			    </div>
+			</div>
+			<label>Select level</label>
+			<div class="form-group">
+				<bs-dropdown data-menu-type="button" select-val="selected_status = selectedVal;formData.drpDownValue=selectedVal"
+				preselected-item="selected_status" data-dropdown-data="statuses"></bs-dropdown>
+			</div>
+		  <div class="form-group row">
+		  <div class="col-xs-6 col-xs-offset-3">
+		      <a class="btn btn-block btn-info" ng-disabled="formData.$invalid" ng-click="moveNext()">
+		      Next<span class="glyphicon glyphicon-circle-arrow-right"></span>
+		      </a>
+		  </div>
+	</div>
+      </form>
+--><div class="col-xs-6 col-xs-offset-3">
+		      <a class="btn btn-block btn-info" ng-disabled="formData.$invalid" ng-click="moveNext()">
+		      Next<span class="glyphicon glyphicon-circle-arrow-right"></span>
+		      </a>
+		  </div>
+  </div>
+
+  <!-- show our formData as it is being typed -->
+  <pre>
+    {{ formData }}
+  </pre>
+
+</div>
+</div>

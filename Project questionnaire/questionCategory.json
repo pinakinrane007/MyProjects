@@ -1,0 +1,119 @@
+[
+  {
+    "surveyId": 1,
+    "displayName": "Basic Application Information",
+    "priorityOrder": 1,
+    "id": 1,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Architecture",
+    "priorityOrder": 2,
+    "id": 2,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Requirement and Project Management",
+    "priorityOrder": 3,
+    "id": 3,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Defect Tracking",
+    "priorityOrder": 4,
+    "id": 4,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Development",
+    "priorityOrder": 5,
+    "id": 5,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": false
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Build",
+    "priorityOrder": 6,
+    "id": 6,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Unit tests Information",
+    "priorityOrder": 7,
+    "id": 7,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Code Quality Reviews",
+    "priorityOrder": 8,
+    "id": 8,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Functional Testing",
+    "priorityOrder": 9,
+    "id": 9,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Non-Functional-Testing",
+    "priorityOrder": 10,
+    "id": 10,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Release Deployment Management",
+    "priorityOrder": 11,
+    "id": 11,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Monitoring",
+    "priorityOrder": 12,
+    "id": 12,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "surveyId": 1,
+    "displayName": "Administration",
+    "priorityOrder": 13,
+    "id": 13,
+    "updateTime": null,
+    "isActive": true,
+    "isMandatory": true
+  }
+]

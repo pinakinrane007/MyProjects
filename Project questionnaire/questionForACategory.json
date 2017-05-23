@@ -1,0 +1,542 @@
+[
+  {
+    "name": "app-id",
+    "displayName": "Application-id",
+    "facetId": 16,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 1,
+    "facet": {
+      "facetName": "PROJECT DOCUMENTATION MAINTAINANCE",
+      "facetDataNodes": [
+        {
+          "id": "1",
+          "value": "API Docs"
+        },
+        {
+          "id": "2",
+          "value": "Run book"
+        }
+      ],
+      "displayName": "PROJECT_DOCUMENTATION_MAINTAINANCE",
+      "surveyId": 1,
+      "id": 16,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 8,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-owner",
+    "displayName": "Application Owner ",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 2,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 9,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-sto",
+    "displayName": "Application STO ",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 3,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 10,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-lto",
+    "displayName": "Application LTO ",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 4,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 11,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-primary-lob-supported",
+    "displayName": "Primary Line Of Business Supported ",
+    "facetId": 5,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 5,
+    "facet": {
+      "facetName": "PRIMARY LINE OF BUSINESS",
+      "facetDataNodes": [
+        {
+          "id": "1",
+          "value": "organization"
+        },
+        {
+          "id": "2",
+          "value": "HR"
+        },
+        {
+          "id": "3",
+          "value": "risk-control"
+        },
+        {
+          "id": "4",
+          "value": "finance"
+        },
+        {
+          "id": "5",
+          "value": "location-site"
+        }
+      ],
+      "displayName": "PRIMARY LINE OF BUSINESS",
+      "surveyId": 1,
+      "id": 5,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 12,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-product-supported",
+    "displayName": "Products Supported",
+    "facetId": 6,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 6,
+    "facet": {
+      "facetName": "PRODUCTS SUPPORTED",
+      "displayName": "PRODUCTS SUPPORTED",
+      "surveyId": 1,
+      "id": 6,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 13,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-business-func-supported",
+    "displayName": "Business Functions Supported",
+    "facetId": 7,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 7,
+    "facet": {
+      "facetName": "BUSINESS FUNCTIONS SUPPORTED",
+      "displayName": "BUSINESS FUNCTIONS SUPPORTED",
+      "surveyId": 1,
+      "id": 7,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 14,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-associated-user-groups",
+    "displayName": "User groups",
+    "facetId": 8,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 8,
+    "facet": {
+      "facetName": "USER GROUP PRIMARY",
+      "displayName": "BUSINESS FUNCTIONS SUPPORTED",
+      "surveyId": 1,
+      "id": 8,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 15,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-associated-client-groups",
+    "displayName": "Client groups, that will be primary users of this application",
+    "facetId": 9,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 9,
+    "facet": {
+      "facetName": "CLIENT GROUP PRIMARY",
+      "displayName": "CLIENT GROUP PRIMARY",
+      "surveyId": 1,
+      "id": 9,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 16,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-development-type",
+    "displayName": "In-house developed or a vendor product",
+    "facetId": 10,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 10,
+    "facet": {
+      "facetName": "DEVELOPMENT UI TYPE",
+      "facetDataNodes": [
+        {
+          "id": "1",
+          "value": "inHouse"
+        },
+        {
+          "id": "2",
+          "value": "vendor"
+        }
+      ],
+      "displayName": "DEVELOPMENT UI TYPE",
+      "surveyId": 1,
+      "id": 10,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 17,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-hosting-strategy",
+    "displayName": "Internally,Externally or Hybrid hosted",
+    "facetId": 11,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 11,
+    "facet": {
+      "facetName": "HOISTING-STRATEGY",
+      "facetDataNodes": [
+        {
+          "id": "1",
+          "value": "internal"
+        },
+        {
+          "id": "2",
+          "value": "external"
+        },
+        {
+          "id": "3",
+          "value": "hybrid"
+        }
+      ],
+      "displayName": "HOISTING-STRATEGY",
+      "surveyId": 1,
+      "id": 11,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 18,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-runtime-mode-type",
+    "displayName": "Application type - batch,online transactional,reporting or brochure-ware?",
+    "facetId": 12,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 12,
+    "facet": {
+      "facetName": "APPLICATION UI TYPE",
+      "facetDataNodes": [
+        {
+          "id": "1",
+          "value": "batch"
+        },
+        {
+          "id": "2",
+          "value": "online"
+        },
+        {
+          "id": "3",
+          "value": "transactional"
+        },
+        {
+          "id": "4",
+          "value": "reporting"
+        },
+        {
+          "id": "5",
+          "value": "brocher-vare"
+        }
+      ],
+      "displayName": "APPLICATION UI TYPE",
+      "surveyId": 1,
+      "id": 12,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 19,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-user-max-supported",
+    "displayName": "Max users supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 13,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 20,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-user-average-supported",
+    "displayName": "Average users supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 14,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 21,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-user-concurrent-supported",
+    "displayName": "Concurrent users supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 15,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 22,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-max-transaction-supported",
+    "displayName": "Max transactions supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 16,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 23,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-avg-transaction-supported",
+    "displayName": "Average transactions supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 17,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 24,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-concurrent-transaction-supported",
+    "displayName": "Concurrent transactions supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 18,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 25,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-max-queries-supported",
+    "displayName": "Max queries/reports supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 19,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 26,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-avg-queries-supported",
+    "displayName": "Average queries/reports supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 20,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 27,
+    "isActive": true,
+    "isMandatory": true
+  },
+  {
+    "name": "app-concurrent-queries-supported",
+    "displayName": "Concurrent queries/reports supported",
+    "facetId": 1,
+    "questionsCategoryId": 1,
+    "parentId": 0,
+    "priorityOrder": 21,
+    "facet": {
+      "facetName": "generic-text-box",
+      "displayName": "generic-text-box",
+      "surveyId": 1,
+      "id": 1,
+      "isActive": true,
+      "isMandatory": false
+    },
+    "attributes": {},
+    "childQuestions": [],
+    "childQuestionsMappedById": {},
+    "id": 28,
+    "isActive": true,
+    "isMandatory": true
+  }
+]

@@ -1,0 +1,90 @@
+[{"name":"Funcional testing environment",
+  "displayName":"is there a dedicated environment for functional testing?",
+  "uiElement":{
+  "type":"drop-down",
+  "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+  }
+
+},
+{"name":"Production data and Database setup",
+ "displayName":"How closely does it resemble Production data and database setup?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+},
+{"name":"Integration testing",
+ "displayName":"Is integration testing performed with all external resources/services? Please describe if any constraints with regard to availibility of external resources/services in testing environment",
+ "uiElement": {
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "Integration testing",
+          
+          "displayName": "Is integration testing performed with all external resources/services?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "resources/services in testing environment",
+          
+                           "displayName": "Please describe if any constraints with regard to availibility of external resources/services in testing environment ",
+          
+                         "uiElement":{
+           
+                            "type":"textarea"
+            
+                                    }
+                         }
+                         ]
+                         
+          
+ }
+
+},
+{"name":"functional testing",
+ "displayName":"Is functional testing automated and part of build process?",
+ "uiElement":{
+ "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+ }
+},
+{"name":"Test cases and results documentation",
+ "displayName":"How are the test cases and results documented and reported?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+}]

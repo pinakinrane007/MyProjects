@@ -1,0 +1,46 @@
+[{"name":"unit-tests",
+  "displayName":"Are unit tests invoked during the built process?",
+  "uiElement":{
+   "type":"dropdown",
+   "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+  }
+  },
+   {
+   "name":"External resources",
+   "displayname":"How are external resources such as APIs,database,message,ques,etc. stubbed as a part of unit test fixtures?",
+   "uiElement":{
+   "type":"textarea"
+   }
+  
+  },
+  {"name":"unit test coverage",
+   "displayName":"Are unit test coverage reports generated and managed?",
+   "uiElement":{
+   "type":"drop-down",
+   "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+   }
+  
+  }
+  
+ 
+]

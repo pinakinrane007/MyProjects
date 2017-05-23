@@ -1,0 +1,143 @@
+<html ng-app = 'myModule'>
+<head>
+
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />
+        <link rel = "stylesheet" type = "text/css" href = "css/custom.css"/>
+		<style type="text/less">
+			body { font-family:Arial; font-size:5px; }
+			body>span, body>h1 { float:left; width:100%; margin:0; padding:0; margin-bottom:10px; }
+			
+			span { color:#888888;
+                >b { color:black; }
+            }
+			
+			#selected { width:100%; margin-top:20px; }
+            
+            .vertical-centre (@height) { height:@height; line-height:@height !important; display:inline-block; vertical-align:middle; }
+            .border-box { box-sizing:border-box; -moz-box-sizing:border-box; }
+			.transition (@value1,@value2:X,...) { @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`; -webkit-transition: @value; -moz-transition: @value; -ms-transition: @value; -o-transition: @value; transition: @value; }
+			.transform (@value1,@value2:X,...) { @value: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`; transform:@value; -ms-transform:@value; -webkit-transform:@value; -o-transform:@value; -moz-transform:@value; }
+			
+			@height:40px;
+			@spacing:10px;
+			@placeholder-colour:#AAA;
+			@select-colour:#2875C7;
+			@font-size:14px;
+			@border-colour:#DDD;
+			
+			.dropdown { float:left; display:block; width:250px;
+				>div { float:left; width:100%;
+					>div.dropdown-display { float:left; width:100%; background:white; height:@height; cursor:pointer; border:solid 1px @border-colour; .border-box;
+						@icon-width:14px;
+						>* { float:left; height:100%; .vertical-centre(@height); }
+						>span { font-size:@font-size; width:100%; position:relative; .border-box; padding-right:@icon-width+@spacing*2; padding-left:@spacing;
+							&.placeholder { color:@placeholder-colour; }
+						}
+						>i { position:relative; width:@icon-width; margin-left:(@spacing+@icon-width)*-1; font-size:1.125em; font-weight:bold; padding-right:@spacing; text-align:right; }
+					}
+
+					>div.dropdown-list { float:left; width:100%; position:relative; width:100%; .transform(scale(1, 0)); .transition(-webkit-transform ease 250ms); .transition(transform ease 250ms);
+						>div { position:absolute; width:100%; z-index:2; cursor:pointer; background:white;
+							>div { float:left; width:100%; padding:0 @spacing; font-size:@font-size; .border-box; border:solid 1px @border-colour; border-top:none;
+								@icon-width:20px;
+								&:hover { background:#F0F0F0; }
+								&.selected { background:@select-colour; color:white; }
+								>* { .vertical-centre(@height); }
+								>span { float:left; width:100%; position:relative; padding-right:@icon-width+@spacing; .border-box; color:inherit; }
+								>i { float:left; width:@icon-width; margin-left:@icon-width*-1; display:none; }
+								&.selected>i { display:inline-block; }
+							}
+						}
+					}
+				}
+
+				>div.show>div.dropdown-list { .transform(scale(1, 1)); }
+			}
+        </style>
+		
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.5/less.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      
+ <script src="js/lib/jquery-3.1.1.min.js"></script>
+<!--<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/angular-route.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>-->
+ <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.1.4.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+<script src = "js/controllers/controller.js" type = "text/javascript"></script>
+</head>
+
+<body ng-controller = 'myController'>
+<div class = "container" text-align = "left">
+<div class= "row"></div><br/>
+<div class = "row">
+<div class = "h1" align = "left">{{title1}}</div>
+</div>
+<div class = "row">
+<form class = "form-horizontal">
+<div class = "form-group">
+<table class = "table table-bordered" ng-repeat = 'question in questions'>
+
+<tr ng-switch on="question.uiElement.type">
+<td>
+		<div class="col-sm-4">
+			<label class = "control-label" align = "left">{{question.displayName}}</label>
+		</div>
+		<div ng-switch-when="textbox">
+				<div class = "col-sm-4">
+					<input type="text" class = "form-control" ng-model="formObject[question.name]"/>
+				</div>
+		</div>
+		<div ng-switch-when="textarea">
+			<div class = "col-sm-8">
+				<textarea rows="6" cols = "30" class = "form-control" ng-model="formObject[question.name]"></textarea>
+			</div>
+		</div>
+		<div ng-switch-when="drop-down">
+			<div class = "col-sm-10">				
+				<bp-dropdown class="dropdown" placeholder="{{question.uiElement.placeHolder}} ..." list="question.uiElement.values" property="name" selected="formObject[id]"></bp-dropdown>
+			</div>
+		</div>
+		<div ng-switch-when="l1">
+			<table>
+			<tr ng-repeat = "questionl1 in question.uiElement.levelOne">
+				<td ng-switch on="questionl1.uiElement.type">
+				<div ng-switch-when="drop-down">
+				<label class = "control-label">{{questionl1.displayName}}</label>
+				<select ng-model="formObject[questionl1.name]" 
+									ng-init="formObject[questionl1.name]=question.uiElement.defaultSelectedValue['id']">
+				     		 <option ng-repeat="option in questionl1.uiElement.value track by option.id" value="{{option.id}}">
+				     		 	{{option.name}}
+				     		 </option>
+				    </select>
+				</div>
+				<div ng-switch-when="textbox"><input type = "text" ng-model="formObject[questionl1.name]"/></div>
+				<div ng-switch-when="textarea">
+					<div class="col-sm-4">
+						<label class = "control-label">{{questionl1.displayName}}</label>
+					</div>
+					<div class = "col-sm-8">
+						<textarea rows="10" cols = "30" class="form-control" ng-model="formObject[questionl1.name]"></textarea>
+					</div>
+				</div>
+				
+			</tr>
+			</table>
+		</div>
+		
+		<br/><br/><br/><br/><br/>
+</td>
+{{formObject}}
+</tr>
+</table><br/><br/>
+</div>
+</form>
+<center><button ng-click="moveNext(currentIndex)" class="btn btn-primary">Next Page</button></center>
+</div><br/>
+</div>
+</body>
+</html>

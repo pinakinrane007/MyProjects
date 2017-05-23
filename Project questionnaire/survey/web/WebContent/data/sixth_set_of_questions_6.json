@@ -1,0 +1,70 @@
+[{"name":"building tool",
+  "displayName":"is a built tool used",
+  "uiElement": {
+          
+            "type": "drop-down",
+            
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Maven"
+                  },
+                {
+                 "id":"2",
+                 "name":"Nuget"
+              },
+                { "id":"3", 
+                  "name":"Ant"
+                },
+                {
+                 "id":"4", 
+                 "name":"Other"
+              }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+           }
+
+},
+{"name":"server-room",
+ "displayName":"Is a clean room build server used?",
+ "uiElement":{
+            "type":"drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+            
+            }
+},
+{"name":"build server uploading",
+ "displayName":"Does the build server upload the generated deployment package to artifactory?",
+ "uiElement":{
+          "type":"drop-down",
+           "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+ }
+},
+{"name":"environments",
+ "displayName":"What are the different environments?",
+ "uiElement":{
+             "type":"textarea"
+             
+ }
+}
+]

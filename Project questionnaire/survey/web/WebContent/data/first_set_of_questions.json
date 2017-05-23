@@ -1,0 +1,48 @@
+[
+        
+    {
+
+          "name": "app-owner",
+
+          "displayName": "Application Owner",
+
+          "uiElement":{
+
+            "type": "textbox"
+            
+          }
+
+        },
+      {
+
+          "name": "app-runtime-mode-type",
+
+          "displayName": "Application type - batch,online transactional,reporting or brochure-ware?",
+
+          "uiElement": {
+
+            "type": "drop-down",
+
+            "value": [    {
+                    "id":"1",
+                    "name":"Batch"
+                  },
+                {
+                 "id":"2",
+                 "name":"Online Transactional"
+              },
+                { "id":"3", 
+                  "name":"Reporting"
+                },
+                {
+                 "id":"4", 
+                 "name":"Brochure-ware"
+              }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+
+          }
+
+        }
+        
+      ]

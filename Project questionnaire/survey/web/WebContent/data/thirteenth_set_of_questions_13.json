@@ -1,0 +1,118 @@
+[
+  {
+    "name": "application runbook",
+    "displayName": "Is there an application runbook?",
+    "uiElement": {
+      "type": "drop-down",
+      "values": [
+        {
+          "id": "1",
+          "name": "Yes"
+        },
+        {
+          "id": "2",
+          "name": "No"
+        }
+      ],
+      "defaultSelectedValue": {
+        "id": "1"
+      }
+    }
+  },
+  {
+    "name": "application restart",
+    "displayName": "How periodically is the application restarted in production? Is it managed through a scheduler? Please describe.",
+    "uiElement": {
+      "type": "l1",
+      "levelOne": [
+        {
+          "name": "application restart period",
+          "displayName": "How periodically is the application restarted in production?",
+          "uiElement": {
+            "type": "textbox"
+          }
+        },
+        {
+          "name": "scheduler management",
+          "displayName": "Is it managed through a scheduler?",
+          "uiElement": {
+            "type": "drop-down",
+            "values": [
+              {
+                "id": "1",
+                "name": "Yes"
+              },
+              {
+                "id": "2",
+                "name": "No"
+              }
+            ],
+            "defaultSelectedValue": {
+              "id": "1"
+            }
+          }
+        },
+        {
+          "name": "description of management",
+          "displayName": "please describe ",
+          "uiElement": {
+            "type": "textarea"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "database archiving",
+    "displayName": "How often is Database archived? What is the process?",
+    "uiElement": {
+      "type": "l1",
+      "levelOne": [
+        {
+          "name": "database archiving time",
+          "displayName": "How often is Database archived? ",
+          "uiElement": {
+            "type": "textbox"
+          }
+        },
+        {
+          "name": "process",
+          "displayName": "What is the process?",
+          "uiElement": {
+            "type": "textarea"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "application log files archiving",
+    "displayName": "How often are the application log files archived? What is the process?",
+    "uiElement": {
+      "type": "l1",
+      "levelOne": [
+        {
+          "name": "application log files archiving time",
+          "displayName": "How often are the application log files archived? ",
+          "uiElement": {
+            "type": "textbox"
+          }
+        },
+        {
+          "name": "process",
+          "displayName": " What is the process?",
+          "uiElement": {
+            "type": "textarea"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "administration processes",
+    "displayName": "Please describe any other significant administration processes?",
+    "uiElement": {
+      "type": "textarea"
+    }
+  }
+]

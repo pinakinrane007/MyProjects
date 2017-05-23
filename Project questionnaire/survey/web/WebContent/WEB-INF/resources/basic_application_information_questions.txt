@@ -1,0 +1,58 @@
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-id','Application-id',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-owner','Application Owner ',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-sto','Application STO ',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-lto','Application LTO ',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-primary-lob-supported','Primary Line Of Business Supported ',5)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-product-supported','Products Supported',6)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-business-func-supported','Business Functions Supported',7)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-associated-user-groups','User groups, that will be primary users of this application',8)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-associated-client-groups','Client groups, that will be primary users of this application',9)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-development-type','In-house developed or a vendor product',10)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-hosting-strategy','Internally,Externally or Hybrid hosted',11)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-runtime-mode-type','Application type - batch,online transactional,reporting or brochure-ware?',12)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) vlaues (1,'app-user-max-supported','Max users supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-user-average-supported','Average users supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-user-concurrent-supported','Concurrent users supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-max-transaction-supported','Max transactions supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-avg-transaction-supported','Average transactions supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-concurrent-transaction-supported','Concurrent transactions supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-max-queries-supported','Max queries/reports supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-avg-queries-supported','Average queries/reports supported',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'app-concurrent-queries-supported','Concurrent queries/reports supported',1)
+
+
+
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'IDE-used','What IDE is used?',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'Source-Control-Tech','What is the source control technology being used?',1)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'IDE-integration','Are IDEs and source control system integrated?',3)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'branching/code-isolation-practice','Describe the  branching/code isolation practice',2)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'SCS1','Are Database schemas, stored procedures, triggers, update scripts checked into source control system?',3)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'SCS2','Are administration scripts checked into source control system? Example: scheduler script, archival scripts etc.',3)
+
+insert into dbo.questions (category_id,name,display_name,facet_id) values (1,'project_documentation_maintainance','How are the project documentation maintained?',16)

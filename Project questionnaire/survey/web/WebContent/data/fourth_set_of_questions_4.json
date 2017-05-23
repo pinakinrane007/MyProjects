@@ -1,0 +1,129 @@
+[
+{
+          "name": "IDE-used",
+          
+          "displayName": "What IDE is used",
+          
+          "uiElement": {
+          
+            "type": "textbox"
+            
+          }
+       },
+      {
+          "name": "Source-Control-Tech",
+          
+          "displayName": "What is the source control technology being used?",
+          
+          "uiElement": {
+          
+            "type": "textbox"
+            
+          }
+       },
+        {
+          
+          "name": "IDE-integration",
+          
+          "displayName": "Are IDEs and source control system integrated?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+            
+          }
+        },
+        {
+        
+          "name": "branching/code-isolation-practice",
+          
+          "displayName": "Describe the  branching/code isolation practice",
+          
+          "uiElement":{
+           
+            "type":"textarea"
+            
+            
+          }
+        },
+        {
+          
+          "name": "SCS1",
+          
+          "displayName": "Are Database schemas, stored procedures, triggers, update scripts checked into source control system?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+            
+          }
+        },
+        {
+          
+          "name": "SCS2",
+          
+          "displayName": "Are administration scripts checked into source control system? Example: scheduler script, archival scripts etc.",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+            
+          }
+        },
+        {
+          "name": "project_documentation_maintainance",
+          
+          "displayName": "How are the project documentation maintained?  ",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":" Api Docs"
+                  },
+                {
+                 "id":"2",
+                 "name":"Run book"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+           }
+        }
+        
+]

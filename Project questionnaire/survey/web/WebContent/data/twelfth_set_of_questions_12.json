@@ -1,0 +1,198 @@
+[{"name":"meachanisms to monito and recieve alerts",
+  "displayName":"What mechanisms are in place to monitor and receive alert from each environment?",
+  "uiElement":{
+        "type":"textarea"      
+  }
+
+},
+{"name":"host_level and runtime metrics",
+ "displayName":"Please describe the host level and runtime metrics monitored?Example: Memory / CPU utilization, disk space, JVM GC etc.",
+ "uiElement":{
+ "type":"textarea"
+ }
+},
+{ "name":"application level metrics monitored",
+  "displayName":"Please describe application level metrics monitored?Example: Cache misses, authentication sucesses / failures etc.",
+  "uiElement":{
+   "type":"textarea"
+  }
+
+},
+{"name":" application level instrumentation",
+ "displayName":"Please describe any application level instrumentation enabled?Example: JMX based config updates etc.",
+ "uiElement":{
+  "type":"textbox"
+ }
+
+},
+{"name":"Mean Time to Detect (MTTD) and Mean Time to Recovery (MTTR)",
+ "displayName":"Are the metrics, Mean Time to Detect (MTTD) and Mean Time to Recovery (MTTR) measured and recorded?  If yes, please describe.",
+ "uiElement": {
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "metrics, Mean Time to Detect (MTTD) and Mean Time to Recovery (MTTR)",
+          
+          "displayName": "Are the metrics, Mean Time to Detect (MTTD) and Mean Time to Recovery (MTTR) measured and recorded? ",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "description",
+          
+                           "displayName": "If yes please describe ",
+          
+                         "uiElement":{
+           
+                            "type":"textarea"
+            
+                                    }
+                         }]
+                         }
+                         },
+                          {
+                         "name":"usage and effectiveness monitoring and tracking",
+                         "displayName":"Are features usage and effectiveness monitored and tracked after release? If yes, how?",
+                         "uiElement": {
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "effectiveness monitored and tracked?",
+          
+          "displayName": "Are features usage and effectiveness monitored and tracked after release?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "description",
+          
+                           "displayName": "If yes, how? ",
+          
+                         "uiElement":{
+           
+                            "type":"textarea"
+            
+                                    }}]
+                                     }
+                                     
+               },
+               {"name":"disaster recovery plan",
+                "displayName":"What is the current disaster recovery plan? Does the plan account for all environments?",
+                "uiElement":{
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "plan account for all environments",
+          
+          "displayName": "Does the plan account for all environments?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "Current disaster recovery plan",
+          
+                           "displayName": "What is the current disaster recovery plan? ",
+          
+                         "uiElement":{
+           
+                            "type":"textarea"
+            
+                                    }}]
+                                     }
+                
+                
+               },
+              {"name":"data replication",
+                "displayName":"Is the data replicated real time between production and DR environments? If not, how frequent are the data snapshots taken?",
+                "uiElement":{
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "data replication in real time",
+          
+          "displayName": "Is the data replicated real time between production and DR environments?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "frequency of data snapshots",
+          
+                           "displayName": "If not, how frequent are the data snapshots taken? ",
+          
+                         "uiElement":{
+           
+                            "type":"textarea"
+            
+                                    }}]
+                                     }
+                
+                
+               },
+               {"name":"trouble-shooting",
+ "displayName":"Is there an infrastructure to collect, search, visualize and analyze logs from all tiers and component instances for efficient troubleshooting purposes?",
+ "uiElement":{
+ "type":"drop-down",
+ "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"} 
+ }
+
+} ]

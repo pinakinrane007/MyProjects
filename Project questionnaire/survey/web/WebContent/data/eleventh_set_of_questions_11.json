@@ -1,0 +1,120 @@
+[{"name":"releases",
+  "displayName":"Are the releases tagged in source control systems?",
+  "uiElement":{
+   "type":"drop-box",
+   "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+  }
+},
+{"name":"tracebility",
+ "displayName":"How is tracebility between tasks/defects and releases tracked?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+},
+{"name":"container technologies",
+ "displayName":"Are there any container technologies such as docker being used to package builds?",
+ "uiElement":{
+  "type":"dropdown",
+  "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"} 
+ }
+},
+{"name":"package deployment",
+ "displayName":"How are built package deployed to various environments such as dev/qa/uat/prod?",
+ "uiElement":{
+ "type":"textbox"
+ }
+
+},
+{"name":"database schema deployment",
+ "displayName":"how are database schemas deployed?",
+ "uiElement":"textarea"
+
+},
+{
+ "name":"data migration",
+  "displayName":"How is data migration related to database schema changes done?",
+  "uiElement":{
+   "type":"textarea"  
+  }
+},
+{"name":"administration scripts",
+ "displayName":"Are startup/launch/batch/other administration scripts included in the deployment package?",
+ "uiElement":{
+ "type":"drop-box",
+ "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"} 
+ }
+
+},
+{"name":"roll back of software binaries and database schemas",
+ "displayName":"What is the process for release rollback of software binaries and database schemas?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+},
+{"name":"hardware/os level provisioning",
+ "displayName":"What is the process for hardware/os level provisioning when creating new environments?",
+ "uiElement":{
+ "type":"textarea"
+ }
+
+},
+{"name":"non-application softwares updates/refreshes",
+ "displayName":"How are OS and other non-application softwares updates/refreshes performed?",
+ "uiElement":{
+ "type":"drop-box",
+  "values": 
+            [    {
+                    "id":"1",
+                    "name":"OS patches"
+                  },
+                {
+                 "id":"2",
+                 "name":"Database patches"
+              },
+                { "id":"3", 
+                  "name":"Shared libraries"
+                }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+ }
+},
+{"name":"average number of resources and time-per-resource ",
+ "displayName":"What is the average number of resources and time-per-resource spent for each each release?",
+ "uiElement":{
+ "type":"textbox"
+ }
+
+}
+]

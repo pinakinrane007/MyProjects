@@ -1,0 +1,264 @@
+[
+      {
+          "name": "app-id",
+          
+          "displayName":"Application Id :",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+            
+          }
+      },
+      {
+          "name": "app-owner",
+          
+          "displayName": "Application Owner :",
+          
+          "uiElement": {
+          
+            "type": "textbox"
+            
+          }
+       },
+       
+        {
+          "name": "app-sto",
+          
+          "displayName": "Application STO",
+          
+          "uiElement": {
+          
+            "type": "textbox"
+            
+          }
+          
+        },
+        
+        {
+          "name": "app-lto",
+          
+          "displayName": "Application LTO",
+          
+          "uiElement": {
+          
+            "type": "textbox"
+            
+          }
+        },
+        {
+          "name": "app-primary-lob-supported",
+          
+          "displayName": "Primary Line Of Business Supported",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Organization"
+                  },
+                {
+                 "id":"2",
+                 "name":"HR"
+              },
+                { "id":"3", 
+                  "name":"Risk  Control"
+                },
+                {
+                 "id":"4", 
+                 "name":"Finance"
+              },
+                {
+                 "id":"5", 
+                 "name":"Location  Site"
+              }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+           }
+        },
+        {
+          "name": "app-product-supported",
+          "displayName": "Products Supported",
+          "uiElement": {
+            "type": "drop-down",
+            "value": [
+              "[]"
+            ],
+            "default-selected-value": ""
+          }
+        },
+        {
+          "name": "app-business-func-supported",
+          "displayName": "Business Functions Supported",
+          "uiElement": {
+            "type": "drop-down",
+            "value": [
+              "[]"
+            ],
+            "default-selected-value": ""
+          }
+        },
+        {
+          "name": "app-associated-user-groups",
+          "displayName": "User groups, that will be primary users of this application",
+          "uiElement": {
+            "type": "dropdown",
+            "value": [
+              "[]"
+            ],
+            "default-selected-value": ""
+          }
+        },
+        {
+          "name": "app-associated-client-groups",
+          "displayName": "Client groups, that will be primary users of this application",
+          "uiElement": {
+            "type": "dropdown",
+            "value": [
+              "[]"
+            ],
+            "default-selected-value": ""
+          }
+        },
+        {
+          "name": "app-associated-client-groups",
+          "displayName": "Client groups, that will be primary users of this application",
+          "uiElement": {
+            "type": "dropdown",
+            "value": [
+              "[]"
+            ],
+            "default-selected-value": ""
+          }
+        },
+        {
+          "name": "app-development-type",
+          "displayName": "In-house developed or a vendor product",
+          "uiElement": {
+            "type": "dropdown",
+            "values":[{
+                       "id":"1",
+                       "name":"In-House"
+                       
+                      },
+                      {"id":"2",
+                      "name":"vendor"}],
+                      "defaultSelectedValue":{"id":"1"}
+          
+          }
+        },
+        {
+          "name": "app-hosting-strategy",
+          "displayName": "Internally,Externally or Hybrid hosted",
+          "uiElement": {
+            "type": "dropdown",
+            "values":[{"id":"1",
+                       "name":"internal"
+                        },
+                        {"id":"2",
+                          "name":"External"
+                        },
+                        {
+                        "id":"3",
+                        "name":"Hybrid"
+                        }],
+                        "defaultSelectedValue":{"id":"3"}
+           
+          }
+        },
+        {
+          "name": "app-runtime-mode-type",
+          "displayName": "Application type?",
+          "uiElement": {
+            "type": "drop-down",
+            "values":[{"id":"1",
+                        "name":"Batch"},
+                        {"id":"2",
+                          "name":"Online"},
+                          {"id":"3",
+                            "name":"Transactional"},
+                            {"id":"4",
+                            "name":"Reporting"},
+                            {"id":"5",
+                            "name":"Brochure-ware"}],
+                            "defaultSelectedValue":{"id":"3"}
+            
+          }
+        },
+        {
+          "name": "app-user-max-supported",
+          "displayName": "Max users supported",
+          "uiElement": {
+            "type": "textbox"
+            
+          }
+        },
+        {
+          "name": "app-user-average-supported",
+          "displayName": "Average users supported",
+          "uiElement": {
+            "type": "textbox"
+            
+          }
+        },
+        {
+          "name": "app-user-concurrent-supported",
+          "displayName": "Concurrent users supported",
+          "uiElement": {
+            "type": "textbox"
+          
+          }
+        },
+        {
+          "name": "app-max-transaction-supported",
+          "displayName": "Max transactions supported",
+          "uiElement": {
+            "type": "textbox"
+           
+          }
+        },
+        {
+          "name": "app-avg-transaction-supported",
+          "displayName": "Average transactions supported",
+          "uiElement": {
+            "type": "textbox"
+           
+          }
+        },
+        {
+          "name": "app-concurrent-transaction-supported",
+          "displayName": "Concurrent transactions supported",
+          "uiElement": {
+            "type": "textbox"
+            
+          }
+        },
+        {
+          "name": "app-max-queries-supported",
+          "displayName": "Max queries/reports supported",
+          "uiElement": {
+            "type": "textbox"
+            
+          }
+        },
+        {
+          "name": "app-avg-queries-supported",
+          "displayName": "Average queries/reports supported",
+          "uiElement": {
+            "type": "textbox"
+           
+          }
+        },
+        {
+          "name": "app-concurrent-queries-supported",
+          "displayName": "Concurrent queries/reports supported",
+          "uiElement": {
+            "type": "textbox"
+           
+          }
+        }
+      
+]

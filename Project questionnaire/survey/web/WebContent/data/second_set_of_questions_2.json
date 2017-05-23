@@ -1,0 +1,181 @@
+[{
+          "name": "data_centers",
+          
+          "displayName": "Data centers deployed to",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"london"
+                  },
+                {
+                 "id":"2",
+                 "name":"Toronto"
+              },
+                { "id":"3", 
+                  "name":"London"
+                }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+            
+          }
+        },
+        {
+          
+          "name": "application multi-tiered?",
+          
+          "displayName": "Is the application multi-tiered?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}
+            
+          }
+        },
+        {
+        
+          "name": "Technologies-Used",
+          
+          "displayName": "Technologies Used and their versions",
+          
+          "uiElement":{ 
+          
+            "type":"textarea"
+            
+          }
+          },
+          {
+          
+          "name": "Host-OS",
+          
+          "displayName": "Host OS and version",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"nix"
+                  },
+                {
+                 "id":"2",
+                 "name":"windows"
+              },
+                { "id":"3", 
+                  "name":"Other"
+                }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+            
+          
+          }
+        },
+        {
+        
+          "name": "machine-type",
+          
+          "displayName": "Is the host machine physical or virtual or container?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Physical"
+                  },
+                {
+                 "id":"2",
+                 "name":"Virtual"
+              },
+                { "id":"3", 
+                  "name":"Container"
+                }
+            ],
+            "defaultSelectedValue":{"id":"3"}
+            
+          }
+        },
+        {
+        
+          "name": "Description",
+          
+          "displayName": "Describe the load-balancing and fail-over approach?",
+          
+          "uiElement":{
+           
+            "type":"textbox"
+            
+          }
+        },
+        {
+          "name": "UI-Tier",
+          
+          "displayName": "UI Tier",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+            
+          }
+        },
+        {
+        
+          "name": "Server-side-Tier",
+          
+          "displayName": "Server-side Tier",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+            
+          }
+        },
+         {
+         
+          "name": "Database-Tier ",
+          
+          "displayName": "Server-side Tier",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+          }
+        },
+        {
+          "name": "Caches",
+          
+          "displayName": "Caches",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+          }
+        }, 
+        {
+          "name": "Search-engines ",
+          
+          "displayName": "Search engines ",
+          
+          "uiElement":{ 
+          
+            "type":"textbox"
+            
+          }
+        }
+        ]

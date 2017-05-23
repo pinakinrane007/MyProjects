@@ -1,0 +1,70 @@
+[
+{
+        
+          "name": "requirement-management",
+          
+          "displayName": "How are requirements gathered and managed?",
+          
+          "uiElement":{
+           
+            "type":"textarea"
+            
+            
+          }
+        },
+        {
+        
+          "name": "in-progress-tasks",
+          
+          "displayName": "How is in-progress tasks tracked and visualized?",
+          
+          "uiElement":{
+           
+            "type":"textarea"
+            
+          }
+        },
+        {
+        "name": "agile-methodology-used?",
+          
+          "displayName": " Is Agile methodology used for related projects? ",
+          
+          
+          "uiElement": {
+                         "type":"l1",
+                         "levelOne":[{
+                          "name": "iterations",
+          
+          "displayName": "Are there fixed iterations?",
+          
+          "uiElement": {
+          
+            "type": "drop-down",
+            "values": 
+            [    {
+                    "id":"1",
+                    "name":"Yes"
+                  },
+                {
+                 "id":"2",
+                 "name":"No"
+              }
+            ],
+            "defaultSelectedValue":{"id":"1"}}
+                         },
+                         {
+                          "name": "iterationLength",
+          
+                           "displayName": "If so, what is the length of iterations? ",
+          
+                         "uiElement":{
+           
+                            "type":"number"
+            
+                                    }
+                         }
+                         ]
+                         
+          }
+        }
+]

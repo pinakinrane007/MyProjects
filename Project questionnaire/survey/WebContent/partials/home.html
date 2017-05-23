@@ -1,0 +1,13 @@
+<div class="col-md-12">
+	<form class="form-inline">
+	    <div class="input-group col-md-12 search-panel-style">
+	        <h4 style="color:white; margin-bottom:2px">Survey Category</h4>
+	        <label>
+	            <select class="form-control" data-ng-model="categoryId" ng-change="changeView()"
+	                    data-ng-options="c.Id as c.Name for c in surveys">
+	                <option value="">--Select Category--</option>
+	            </select>
+	        </label>
+	    </div>
+	</form>
+</div>
