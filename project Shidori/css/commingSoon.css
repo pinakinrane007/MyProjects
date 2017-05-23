@@ -1,0 +1,13 @@
+body{
+	background-size : 100%;
+}
+.h1, .h3{
+	color : red;
+}
+
+div{
+	display : block;
+}
+btn{
+	background-color : yellow;
+}

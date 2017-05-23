@@ -1,0 +1,25 @@
+ [{
+				 "name":"Bombay Bowl",
+				 "photo":"C:/Users/PINAKIN/Desktop/project Freedom/images/restaurants/hotel2.jpg",
+				 "cost" : 150,
+				 "address" : "xyz houston",
+				 "phone" : "333-333-3333"
+			 },{
+				 "name":"Annapurna",
+				 "photo":"C:/Users/PINAKIN/Desktop/project Freedom/images/restaurants/hotel3.jpg",
+				 "cost" : 150,
+				 "address" : "xyz houston",
+				 "phone" : "333-333-3333"
+			 },{
+				 "name":"Taste Of India",
+				 "photo":"C:/Users/PINAKIN/Desktop/project Freedom/images/restaurants/hotel4.jpg",
+				 "cost" : 150,
+				 "address" : "xyz houston",
+				  "phone" : "333-333-3333"
+			 },{
+				 "name":"Bhojanic",
+				  "photo":"C:/Users/PINAKIN/Desktop/project Freedom/images/restaurants/hotel5.jpg",
+				 "cost" : 150,
+				 "address" : "xyz houston",
+				 "phone" : "333-333-3333"
+			 }]

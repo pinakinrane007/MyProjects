@@ -1,0 +1,85 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+ <link href = 'new3.css' rel = 'stylesheet' type = 'text/css'/>
+</head>
+<body>
+<div class = 'container'>
+<div class = 'row row1'>
+   <div align = 'left' class = 'h1'>REGISTER WITH US</DIV>
+</div>
+  <br/><br/>
+  <div class = 'row'>
+     <div class = 'col-md-6'>
+     <fieldset>
+	   <legend>CUSTOMER FORM</legend>
+	    <form class = 'form-group'>
+		  <label for = 'CustomerN'>CUSTOMER NAME :</label>
+		  <input type = 'text' id = 'customerN' class = 'form-control' required = 'required'/>
+		  <label for = 'customerEmail'>EMAIL :</label>
+		  <input type = 'email' id = 'customerEmail' class = 'form-control' required = 'required'/>
+		  <label for = 'customerPhone'>PHONE NUMBER : </label>
+		  <input type = 'number' size = '10' class = 'form-control' maxlength = '4'/>
+		  <label for = 'customerCredit'>CREDIT OR DEBIT CARD NUMBER :</label>
+		  <input type = 'number' id = 'customerCredit' class = 'form-control'/><br/>
+		   <label for = 'securityCustomer'>SECURITY CODE :</label>
+		  <input type = 'number' id = 'securityCustomer' class = 'form-control'/><br/>
+		  <label for = 'expiry'>EXPIRY DATE :</label>
+		  <select>
+		  <option>MONTH<span class = 'caret'></span></OPTION>
+		  </select>
+		  <select>
+		  <option>YEAR<span class = 'caret'></span></OPTION>
+		  </select><BR/><br/>
+		   <label for = 'expiry'>DATE OF BIRTH :</label>
+		  <select>
+		  <option>MONTH<span class = 'caret'></span></OPTION>
+		  </select>
+		  <select>
+		  <option>DAY<span class = 'caret'></span></OPTION>
+		  </select>
+		  <select>
+		  <option>YEAR<span class = 'caret'></span></OPTION>
+		  </select><br/><br/>
+          <label for = 'customerPassword'>PASSWORD : </label>
+		  <input type = 'password' id = 'customerPassword' class = 'form-control'/>
+		   <label for = 'confirmPass'>CONFIRM PASSWORD : </label>
+		  <input type = 'password' id = 'confirmPass' class = 'form-control'/>
+		  <label class = 'h3'>BILLING ADDRESS</label><br/><br/>
+		  <label for = 'customerStreet'>STREET NAME:</label>
+		  <input type = 'text' id = 'customerStreet' class = 'form-control'/>
+		  <label for = 'customerCity'>CITY :</label>
+		  <input type = 'text' id = 'customerCity' class = 'form-control'/>
+		  <label for = 'customerDist'>DISTRICT :</label>
+		  <input type = 'text' id = 'customerDist' class = 'form-control'/>
+		  <label for = 'customerState'>STATE :</label>
+		  <input type = 'text' id = 'customerState' class = 'form-control'/>
+		  <label for = 'customerCountry'>COUNTRY :</label>
+		  <input type = 'text' id = 'customerCountry' class = 'form-control'/>
+		  <label for = 'customerZip'>ZIP CODE :</label>
+		  <input type = 'number' id = 'customerZip' class = 'form-control'/>
+		</form>
+	 </fieldset>
+	 </div>
+  </div>
+  <div class = 'row'>
+   <div >
+   <div class = 'col-md-offset-2'>
+   <button class = 'btn btn-success'>REGISTER</button>
+   <button class = 'btn btn-danger'>CANCEL</button>
+   </div>
+   </div>
+  </div><br/><br/>
+  <div class = 'row'></div>
+</div>
+</body>
+</html>

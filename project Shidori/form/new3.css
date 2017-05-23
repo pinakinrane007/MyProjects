@@ -1,0 +1,32 @@
+.btn1{
+	
+
+}
+
+th{
+	font-family : Verdana, Geneva, sans-serif;
+	color : black;
+}
+
+.fixed{
+	float : right;
+}
+
+.hello{
+	
+    position: fixed;
+	color : black;
+}
+td{
+	color : black;
+}
+
+.hello2{
+	position : fixed;
+}
+.button{
+	float : right;
+}
+body{
+	background-color : lightBlue;
+}

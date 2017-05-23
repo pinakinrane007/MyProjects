@@ -1,0 +1,116 @@
+<html ng-app = 'menuCard'>
+<head>
+<title>MENU CARD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<link href = 'css/menucard2.css' rel = 'stylesheet' type = 'text/css'/>
+<script src = 'js/menucard2.js' type = 'text/javascript'></script>
+ </head>
+<BODY ng-controller = 'menuController'>
+<div class = 'container container-fluid'>
+<div class = 'row row1'>
+     <nav class="navbar navbar-default navbar-fixed-top">
+	   <div class = 'container row1'>
+	     <div class = 'col-md-6'>
+	      <ul class="nav nav-pills">
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>PROJECT FREEDOM</button></a></li>
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>ABOUT US <span class = 'glyphicon glyphicon-info-sign'></span></button></A></li>
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>CONTACT US <span class = 'glyphicon glyphicon-phone-alt'></span></button></a></li>
+</ul>
+       </div>
+	   <div class = 'col-md-6' >
+	      <ul class="nav nav-pills nav1" >
+  
+  <li role="presentation" ><a href="#"><button class = 'btn btn-INFO'>REGISTER </button></A></li>
+  <li role="presentation" ><a href="#"><button class = 'btn btn-INFO'>SIGN IN </button></a></li>
+</ul>
+       </div>
+	   </div>
+	 </nav>
+	 
+   </div>
+<br/><br/><br/><br/><br/><br/>
+<div class = 'row'>
+<div class = 'input-group center-block '>
+<div class = 'col-md-10'><input type = 'text' class = 'form-control' placeholder = '                                                                                                    CITY OR ZIP-CODE'/></div> 
+<div class = 'col-md-2'><button class = 'btn btn-primary'>SEARCH <span class = 'glyphicon glyphicon-search'></span></button>
+</div><br/><br/><br/>
+<div class = 'row'>
+   <div class = 'col-md-3'>
+      <button class = 'btn btn-primary starters' ng-click = 'starters()'>STARTERS</button>
+   </div>
+   <div class = 'col-md-3'>
+      <button class = 'btn btn-primary main-course center-block' ng-click = 'mainCourse()'>MAIN COURSE</button>
+   </div>
+   <div class = 'col-md-2'>
+      <button class = 'btn btn-primary deserts' ng-click = 'deserts()'>DESERTS</button>
+   
+   </div>
+   <div class = 'col-md-3'>
+      <button class = 'btn btn-primary drinks' ng-click = ''>DRINKS</button>
+   
+   </div>
+</div><br/><br/><br/>
+  <div class = 'row'>
+     <div class = 'col-md-4'>
+	  <table class = 'table'>
+	    <tr>
+		  <th>FOOD ITEM </th>
+		  <th>PICTURE</th>
+		</tr>
+		<tr ng-repeat = 'display in display'>
+		   <td><h3 class = 'h3'>{{display.name}}</h3> <br/>
+		       <h4 class = 'h4'>{{display.cost | currency}}</h4><br/>
+			   <button class = 'btn btn-success' ng-click = 'cart1(display.name,display.cost)'>ADD TO CART</button>
+		   </td>
+		   <td><input type = 'image' ng-src = '{{display.image1}}' class = 'img-responsive img-rounded' /></td>
+		   
+		</tr>
+		</table>
+	      
+  </div>
+  <div class = 'col-md-2 fixed'>
+	      <div class = ' hello'>
+		   <table class = 'table table-stripped table-responsive' align = 'right'>
+	     <tr>
+		   <th>ITEM</th>
+		   <th>COST</th>
+		    <th>REMOVE</th>
+		 </tr>
+		 <tr ng-repeat = 'item in myItems'>
+		   <th>{{item.name}}</th>
+		   <th>{{item.cost | currency}}</th>
+		   <th><button class = 'btn btn-danger' ng-click = 'remove1(item,item.cost)'>REMOVE</button></th>
+		  
+		 </tr>
+		 
+       </table>	
+         </div>		 
+           </div>
+		   <div class = 'col-md-4 hello2'>
+		     <div class = 'hello1'>
+			    <table>
+				 <tr>
+		 <th>TOTAL : </th>
+		 <th>{{cost | currency}}</th>
+		 </tr>
+		 <tr></tr>
+		 <tr>
+		    
+		    <th><br/><button class = 'btn btn-success'>ORDER AND PAY</BUTTON></th>
+		 </tr>
+				</table>
+			 </div>
+		   </div>
+</div>
+</body>
+</html>

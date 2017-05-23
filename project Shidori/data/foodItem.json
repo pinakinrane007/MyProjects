@@ -1,0 +1,61 @@
+ [           {
+		         "name" : "chicken Tikka",
+				 "cost" : 100,
+				"image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/chicken-tikka.jpg',
+				"type" : 'starter'
+			 },{
+				 "name" : 'Samosa',
+				 "cost" : 150,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/samosa.jpg',
+				 "type" : 'starter'
+			 },{
+				 "name" : 'Hara Bhara Kabab',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/hara-bhara-kabab.jpg',
+				 "type" : 'starter'
+			 },{
+				 "name" : 'Chicken Tandoori',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/tandoori-chicken.jpg',
+				 "type" : 'starter'
+			 },{
+				 "name" : 'Chicken Curry',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/chicken-curry.jpg',
+				 "type" : 'main course'
+			 },{
+				 "name" : 'Palak Paneer',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/palak-paneer.jpg',
+				 "type" : 'main course'
+			 },{
+				 "name" : 'Pindi Chana',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/pindi-chana.jpg',
+				 "type" : 'main course'
+			 },{
+				 "name" : 'Biryani',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/biryani.jpg',
+				 "type" : 'main course'
+			 },{
+				 "name" : 'Khoya Burfi',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/khoya-burfi.jpg',
+				 "type" : 'desert'
+			 },{
+				 "name" : 'Kheer',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/kheer.jpg',
+				 "type" : 'desert'
+			 },{
+				 "name" : 'gulab jamun',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/gulab-jamun.jpg',
+				 "type" : 'desert'
+			 },{
+				 "name" : 'Jalebi',
+				 "cost" : 50,
+				 "image1":'C:/Users/PINAKIN/Desktop/project Freedom/images/foodItems/jalebi.jpg',
+				 "type" : 'desert'
+			 }]

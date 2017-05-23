@@ -1,0 +1,38 @@
+<html ng-app = 'spa'>
+<head>
+<title>FRONT PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+ <script src = 'js/menu.js' type = 'text/javascript'></script>
+ </head>
+<body>
+<div class = 'container'>
+   <div class = 'row center-block' align = 'center' >
+      <h1 class = 'h1'>MENU CARD</h1>
+   </div>
+   <div class = 'row'>
+     <div class = 'col-md-3'>
+	 <div class = 'input-group'>
+	   <input type = 'text' placeholder = 'Search By Food Name'/> <span class = 'glyphicon glyphicon-search'></span> 
+	   </div><br/>
+	   <a href = '#/starters'><button class = 'btn btn-info'>STARTERS</button></a><br/><BR/>
+	   <a href = '#/main'><button class = 'btn btn-info'>MAIN COURSE</button></a><BR/><BR/>
+	   <a href = '#/deserts'><button class = 'btn btn-info'>DESERTS</button></a>
+	 </div>
+	 <div class = 'col-md-4'>
+	   <ng-view></ng-view>
+	 </div>
+   </div>
+</div>
+</body>
+</html>

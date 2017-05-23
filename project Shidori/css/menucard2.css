@@ -1,0 +1,39 @@
+.starters{
+	float : right;
+}
+.main-course{
+	
+}
+.deserts{
+	float : left;
+}
+.drinks{
+	float: left;
+}
+
+.img-responsive{
+	width : 150px;
+	height: 150px;
+}
+
+.hello{
+	position : fixed;
+	max-height: 390px;
+	overflow-y: scroll;
+}
+.hello1{
+	position : fixed;
+	float: right;
+}
+.hello2{
+	float : right;
+}
+.header1{
+	position : fixed;
+}
+.nav1{
+	float : right;
+}
+.row1{
+	background-color : black;
+}

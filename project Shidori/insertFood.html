@@ -1,0 +1,77 @@
+<html ng-app = 'foodMod'>
+<head>
+<title>MENU CARD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src = 'js/insertFood.js' type = 'text/javascript'></script>
+  <link href = 'css/insertFood.css' rel = 'stylesheet' type = 'text/css' />
+ </head>
+<body ng-controller = 'insertController'>
+<div class = 'container'>
+   <div class = 'row row1'>
+     <nav class="navbar navbar-default navbar-fixed-top">
+	   <div class = 'container row1'>
+	     <div class = 'col-md-6'>
+	      <ul class="nav nav-pills">
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>PROJECT FREEDOM</button></a></li>
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>ABOUT US <span class = 'glyphicon glyphicon-info-sign'></span></button></A></li>
+  <li role="presentation"><a href="#"><button class = 'btn btn-INFO'>CONTACT US <span class = 'glyphicon glyphicon-phone-alt'></span></button></a></li>
+</ul>
+       </div>
+	   <div class = 'col-md-6' >
+	      <ul class="nav nav-pills nav1" >
+  
+  <li role="presentation" ><a href="#"><button class = 'btn btn-INFO'>REGISTER </button></A></li>
+  <li role="presentation" ><a href="#"><button class = 'btn btn-INFO'>SIGN IN </button></a></li>
+</ul>
+       </div>
+	   </div>
+	 </nav>
+	 
+   </div>
+   <br/><br/><br/>
+   <div class = 'row'>
+    <h1 class = 'h1'>ENTER YOUR FOOD ITEM DETAILS</h1>
+   </div>
+   <br/><br/><br/><br/>
+   <div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">FOOD NAME :</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" id="example-text-input">
+  </div>
+</div>
+ <div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">TYPE :</label>
+  <div class="col-xs-10">
+   <select class = 'selectpicker' multiple title = 'STARTER, MAIN COURSE,....' data-style = 'btn-primary'><span class = 'caret'></span>
+	  <option>INDIAN</OPTION>
+	</select>
+  </div>
+  </div>
+   <div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">COST : ( <span class="glyphicon glyphicon-usd"></span> )</label>
+  <div class="col-xs-10">
+ <input class="form-control" type="NUMBER" id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">IMAGE (IF AVAILABLE) :</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="file" id="example-text-input">
+  </div>
+</div>
+<button ng-click = "repeat()">repeat</button>
+</div>
+<div ng-include = "'{{message}}'"></div>
+</div>
+</body>
+</html>

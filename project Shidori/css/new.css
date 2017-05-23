@@ -1,0 +1,12 @@
+.container{
+	margin : 100 100 100 100;
+	display : center;
+	vertical-align : middle;
+}
+.btn{
+	color : white;
+	font-weight : bold;
+}
+.centering{
+	margin : 0 auto;
+}
